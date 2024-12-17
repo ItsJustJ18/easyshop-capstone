@@ -32,20 +32,20 @@ public class CategoriesController
     }
 
     // add the appropriate annotation for a get action
-    @GetMapping("/all")
     @PreAuthorize("permitAll()")
     public List<Category> getAll() {
-        List<Category> getCategories = new ArrayList<>();
+//        List<Category> getCategories = new ArrayList<>();
         // find and return all categories
         return categoryDao.getAllCategories();
     }
 
     // add the appropriate annotation for a get action
-    @GetMapping("/all")
+    @GetMapping("/{id}")
     @PreAuthorize("permitAll()")
     public Category getById(@PathVariable int id) {
         List<Category> categoryId = new ArrayList<>();
         // get the category by id
+        System.out.println(categoryId);
         return categoryDao.getById(id);
     }
 
@@ -57,19 +57,19 @@ public class CategoriesController
         List<Product> productsResults = new ArrayList<>();
         productsResults.add(1, new Product());
         // get a list of product by categoryId
-        return productsResults;
+        return productDao.listByCategoryId(categoryId);
     }
 
     // add annotation to call this method for a POST action
     // add annotation to ensure that only an ADMIN can call this function
     @PostMapping("/add")
     @PreAuthorize("hasRole('ROLE_ADMIN')")
-    @RequestMapping("/categories")
+//    @RequestMapping("/categories")
     @ResponseStatus(code = HttpStatus.CREATED)
     public Category addCategory(@RequestBody Category category) {
         System.out.println(category);
         // insert the category
-        return category;
+        return categoryDao.create(category);
     }
 
     // add annotation to call this method for a PUT (update) action - the url path must include the categoryId
@@ -91,6 +91,8 @@ public class CategoriesController
     @ResponseStatus(code = HttpStatus.NO_CONTENT)
     public void deleteCategory(@PathVariable ("id") int categoryId) {
         // delete the category by id
+        categoryDao.delete(categoryId);
         System.out.println("Category ID " + categoryId + "has been deleted. " );
+
     }
 }
