@@ -57,7 +57,6 @@ public class CategoriesController {
     // the url to return all products in category 1 would look like this
     // https://localhost:8080/categories/1/products
     @GetMapping("/{categoryId}/products")
-//    @PreAuthorize("permitAll()")
     public List<Product> getProductsById(@PathVariable int categoryId) {
         List<Product> productsResults = new ArrayList<>();
         // get a list of product by categoryId
@@ -77,9 +76,9 @@ public class CategoriesController {
 
     // add annotation to call this method for a PUT (update) action - the url path must include the categoryId
     // add annotation to ensure that only an ADMIN can call this function
-    @PutMapping
+    @PutMapping("/{id}")
     @PreAuthorize("hasRole ('ROLE_ADMIN')")
-    @ResponseStatus(code = HttpStatus.ACCEPTED)
+//    @ResponseStatus(code = HttpStatus.ACCEPTED)
     public void updateCategory(@PathVariable int id, @RequestBody Category category) {
         // update the category by id
         categoryDao.update(id, category);
