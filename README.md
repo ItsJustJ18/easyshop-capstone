@@ -13,6 +13,16 @@ through the UI, backend provides the functionality of the project and tie everyt
 Version of Java 17
 
 Maven
+You will need to download MySQL WorkBench and MySql Configurations for the connection to your database
+Link to download the Community Server - https://dev.mysql.com/downloads/mysql/
+![Screenshot 2024-12-20 075021](https://github.com/user-attachments/assets/a07feae8-ffde-4fae-bdec-13dd44a11417)
+
+Link to download the WorkBench - https://dev.mysql.com/downloads/workbench/
+![Screenshot 2024-12-20 074850](https://github.com/user-attachments/assets/027f7605-db3e-4a74-acc4-30b58d1c6e51)
+
+Link to download MySQL Installer - https://dev.mysql.com/downloads/installer/
+![Screenshot 2024-12-20 074924](https://github.com/user-attachments/assets/8418e1ab-ff1d-4dde-9696-de19030dfc77)
+
 
 You will need to have Intellij IDEA Community Edition or Intellij Ultimate with the latest installments attached
 Link for Intellij - https://www.jetbrains.com/idea/download/?section=windows
@@ -28,6 +38,10 @@ After confirming the settings for your SpringBoot Application, complete the foll
 
 3. Go inside of Intellij tp open the file that was made from the unzipped folder.
 ![Screenshot 2024-12-20 000200](https://github.com/user-attachments/assets/3c1709ea-b795-4c44-b29a-fb5734dfbd68)
+
+You will also need PostMan to be able to test the functionality of the backend portion of the code.
+Link for PostMan- https://www.postman.com/downloads/
+![Screenshot 2024-12-20 074057](https://github.com/user-attachments/assets/a543b45e-90dd-43ce-a6a5-5c26b2f02c3d)
 
 ## Preplan of EasyShop
 
@@ -48,6 +62,14 @@ The bugs that were notified for the required pieces invloved the CategoriesContr
 ### Bugs Fixed From the MySqlProductDao Class
 ![Screenshot 2024-12-20 001445](https://github.com/user-attachments/assets/089bb293-c925-4de3-900d-e37cacca7361)
 
+## Testing With Postman
+We are going to be using the PostMan software to test the functionality of the backend poortion provided in this project after we were done fixing certain sections in our code. Below are the collection tests for the required sections of the test.
+![Screenshot 2024-12-20 073900](https://github.com/user-attachments/assets/7cce09fc-109c-4bbe-9f16-fe7dd7724ccf)
 
+### Passing All PostMan Tests
+*When testing PostMan to make sure every test passes, make sure to reuse the EasyShop database in MySql WorkBench Version 8.0 CE and have a connection to your database*
+![Screenshot 2024-12-20 074622](https://github.com/user-attachments/assets/4a27a9ac-e483-48dd-9625-67f23d88fee1)
+![Screenshot 2024-12-20 074637](https://github.com/user-attachments/assets/b2cec1be-d14e-479e-b02c-8787e710a28c)
+![Screenshot 2024-12-20 074647](https://github.com/user-attachments/assets/2393521c-004a-4b6e-9c93-e0838a2c9b22)
 
 
