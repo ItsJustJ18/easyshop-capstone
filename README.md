@@ -61,7 +61,7 @@ The bugs that were notified for the required pieces invloved the CategoriesContr
 ![Screenshot 2024-12-20 001445](https://github.com/user-attachments/assets/bdd084d2-1775-4391-a709-9311c2770829)
 
 ### Bugs Fixed From the MySqlProductDao Class
-![Screenshot 2024-12-20 001445](https://github.com/user-attachments/assets/089bb293-c925-4de3-900d-e37cacca7361)
+![Screenshot 2024-12-20 001417](https://github.com/user-attachments/assets/1517e48d-5166-4acf-a147-12a9499185a0)
 
 ## Testing With Postman
 We are going to be using the PostMan software to test the functionality of the backend poortion provided in this project after we were done fixing certain sections in our code. Below are the collection tests for the required sections of the test.
