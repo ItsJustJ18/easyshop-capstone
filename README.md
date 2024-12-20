@@ -1,4 +1,6 @@
 # EasyShop Application
+![Screenshot 2024-12-19 234311](https://github.com/user-attachments/assets/f6373510-806e-44fb-8bd1-fd3ee2ada3a4)
+
 
 ## Brief Overview of EasyShop
 
