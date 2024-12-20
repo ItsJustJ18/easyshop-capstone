@@ -35,4 +35,19 @@ While being provided the workshop that was written by someone else, there were s
 notified in different sections of where the bugs were and needed to promptly change them. Based on that, I have linked a project board to this repo to help assist me in making sure that I continue on the plans being made to complete the required section(s).
 ![Screenshot 2024-12-20 000902](https://github.com/user-attachments/assets/ef0513cd-2df0-4444-883f-063ad638d265)
 
+## Debugging of EasyShop
+The bugs that were notified for the required pieces invloved the CategoriesController, MySqlCategoryDao, and MySqlProductDao. Witht this in mind, I began to overview the code and go through to see what can be fixed and what should remain the same.
+
+### Bugs Fixed From the MySqlCategoryDao Class
+![Screenshot 2024-12-20 001327](https://github.com/user-attachments/assets/7146515b-542c-48e4-b78c-afaac5f6cd6b)
+![Screenshot 2024-12-20 001401](https://github.com/user-attachments/assets/a492b915-f505-4f12-afcb-6898c734d630)
+
+### Bugs Fixed From the CategoriesController Class
+![Screenshot 2024-12-20 001445](https://github.com/user-attachments/assets/bdd084d2-1775-4391-a709-9311c2770829)
+
+### Bugs Fixed From the MySqlProductDao Class
+![Screenshot 2024-12-20 001445](https://github.com/user-attachments/assets/089bb293-c925-4de3-900d-e37cacca7361)
+
+
+
 
