@@ -13,6 +13,7 @@ through the UI, backend provides the functionality of the project and tie everyt
 Version of Java 17
 
 Maven
+
 You will need to download MySQL WorkBench and MySql Configurations for the connection to your database
 Link to download the Community Server - https://dev.mysql.com/downloads/mysql/
 ![Screenshot 2024-12-20 075021](https://github.com/user-attachments/assets/a07feae8-ffde-4fae-bdec-13dd44a11417)
