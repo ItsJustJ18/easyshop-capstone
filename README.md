@@ -50,6 +50,11 @@ While being provided the workshop that was written by someone else, there were s
 notified in different sections of where the bugs were and needed to promptly change them. Based on that, I have linked a project board to this repo to help assist me in making sure that I continue on the plans being made to complete the required section(s).
 ![Screenshot 2024-12-20 000902](https://github.com/user-attachments/assets/ef0513cd-2df0-4444-883f-063ad638d265)
 
+## Database for MySql Workbench
+*Make sure you have all the needed essentials so you can have your tests and information for the future database*
+![Screenshot 2024-12-20 083715](https://github.com/user-attachments/assets/1c76a992-f923-422e-ac76-fcbc17fbda9e)
+
+
 ## Debugging of EasyShop
 The bugs that were notified for the required pieces invloved the CategoriesController, MySqlCategoryDao, and MySqlProductDao. Witht this in mind, I began to overview the code and go through to see what can be fixed and what should remain the same.
 
