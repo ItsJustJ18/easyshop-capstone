@@ -73,4 +73,33 @@ We are going to be using the PostMan software to test the functionality of the b
 ![Screenshot 2024-12-20 074637](https://github.com/user-attachments/assets/b2cec1be-d14e-479e-b02c-8787e710a28c)
 ![Screenshot 2024-12-20 074647](https://github.com/user-attachments/assets/2393521c-004a-4b6e-9c93-e0838a2c9b22)
 
+## FrontEnd Changes to Website
+We can be provided a website to test the cohesiveness of the front and backend operating together. It lets me see if anything when it comes the the UI if there needs to be any fixes and physically lets me test different areas that could be improved and fixed.
 
+### Front HomePage of EasyShop Website
+![Screenshot 2024-12-20 075943](https://github.com/user-attachments/assets/6907f19f-1f69-481b-935e-553ec7dce2b6)
+
+### Searching by Different Categories
+![Screenshot 2024-12-20 080048](https://github.com/user-attachments/assets/6bbca859-980f-4ad4-b0c5-336809beb434)
+![Screenshot 2024-12-20 080106](https://github.com/user-attachments/assets/6abb6d6b-0ef7-48b2-b288-aaedd8a40030)
+
+### Searching by Color
+![Screenshot 2024-12-20 080325](https://github.com/user-attachments/assets/e775de05-eea8-4db5-9300-df8bac23b6fe)
+
+### Searching All by Price
+![Screenshot 2024-12-20 080407](https://github.com/user-attachments/assets/907a606f-ea07-4b11-94d5-24b92be1071f)
+![Screenshot 2024-12-20 080425](https://github.com/user-attachments/assets/1478fabf-c329-4efb-b224-1befccefc4c7)
+
+## Conclusion of EasyShop Application
+This project was to display the various areas of the following understanding of skills and tool usage:
+
+- Java Fundamentals
+- Spring Framework
+- SpringBoot Application
+- HTML & CSS
+- Database Management
+- RESTful API Design
+- Debugging
+- PostMan Tests
+
+With the understanding of these skills and tools, we are able to apply it to a real life situation where front and backend come together to collaborate on a project.
