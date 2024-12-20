@@ -8,9 +8,10 @@ The EasyShop Application project allows for several bug fixes to be changed then
 collaborating with each other to create a result that a user can notice the outcome from those results. While the frontend provides the visuals of how everything can look
 through the UI, backend provides the functionality of the project and tie everything in with the logic behind it all.
 
-## Project Requirements for Operatrion
+## Project Requirements for Operation
 
 Version of Java 17
+
 Maven
 
 You will need to have Intellij IDEA Community Edition or Intellij Ultimate with the latest installments attached
@@ -27,4 +28,11 @@ After confirming the settings for your SpringBoot Application, complete the foll
 
 3. Go inside of Intellij tp open the file that was made from the unzipped folder.
 ![Screenshot 2024-12-20 000200](https://github.com/user-attachments/assets/3c1709ea-b795-4c44-b29a-fb5734dfbd68)
+
+## Preplan of EasyShop
+
+While being provided the workshop that was written by someone else, there were several areas where we need to debug the code to make it functional. We were already
+notified in different sections of where the bugs were and needed to promptly change them. Based on that, I have linked a project board to this repo to help assist me in making sure that I continue on the plans being made to complete the required section(s).
+![Screenshot 2024-12-20 000902](https://github.com/user-attachments/assets/ef0513cd-2df0-4444-883f-063ad638d265)
+
 
